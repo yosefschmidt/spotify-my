@@ -52,3 +52,41 @@ background-size: cover;
   /* justify-content: center; */
   grid-template-columns: auto auto auto;
 }
+
+
+body{
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1612021538873-a29205a858dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTAwfHxzb25nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  margin: 0px;
+}
+
+header{
+  font-size: x-large;
+  background-color: rgb(150, 209, 189);
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+#thelinks{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+#login{
+  background-color: rgba(139, 179, 129, 0.459);
+  border-radius: 50px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+input{
+  border-radius: 30px;
+}
+button{
+  border-radius: 5px;
+  background-color: rgba(139, 179, 129);
+}
+#close{
+  background-color: rgb(231, 131, 131);
+}
