@@ -3,9 +3,9 @@ import TheLinks from "./TheLinks";
 function Header(){
 
     return(
-        <header>
+        <header className="header">
+            <TheLinks/><br/>
              <MyRoute/>
-            <TheLinks/>
 
         </header>
     )
