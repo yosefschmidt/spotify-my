@@ -1,26 +1,22 @@
-function Loginput () {
-    let loginbtn=document.getElementById("loginbtn")
-document.getElementById("btn").addEventListener('click',()=>{
-let input=document.createElement("input")
-input.type="text"
-input.id="logintext"
-loginbtn.appendChild(input)
-let inputpass=document.createElement("input")
-inputpass.type="password"
-inputpass.id="loginpassword"
-loginbtn.appendChild(input)
-})
+function Login() {
+
+    return (
+        <div id="login" >
+            <form >
+                <h1>Login</h1>
+                
+                
+                <input placeholder="Enter Name" name="name" required/><br/>
+
+                    
+                    <input type="password" placeholder="Enter Password" name="password" required/><br/>
+
+                        <button>Login</button><br/>
+                        <button id="close" onClick={()=>{document.getElementById("login").style.display="none"}} >Close</button>
+                    </form>
+                </div>
+
+                )
 }
 
-
-function Login () {
-
-
-    return(
-       <div id="loginbtn">
-        <button id="btn" onClick={Loginput} >login</button>
-
-    </div>)
-}
-
-export default Login
+                export default Login
