@@ -9,7 +9,7 @@ function Login() {
                 <input placeholder="Enter Name" name="name" required/><br/>
 
                     
-                    <input type="password" placeholder="Enter Password" name="password" required/><br/>
+                    <input type="password" placeholder="Enter Password" name="psw" required/><br/>
 
                         <button>Login</button><br/>
                         <button id="close" onClick={()=>{document.getElementById("login").style.display="none"}} >Close</button>
